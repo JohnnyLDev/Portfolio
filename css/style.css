@@ -1,0 +1,68 @@
+/* Imported Fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+/* Universal tag to remove edges and default font */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Fixed navbar */
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/* Location of logo name on nav bar */
+.name {
+    margin-top: 10px;
+    margin-left: 60px;
+    float: left;
+}
+
+/* Color and font of logo name on nav bar */
+.name h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+/* Style inside unordered list of nav bar pages */
+.navBar ul {
+    padding: 20px;
+    background-color: rgb(0, 0, 105);
+    text-align: right;
+}
+
+/* List style inside navbar as inline */
+.navBar li {
+    display: inline;
+}
+
+/* Fonts inside nav bar lists */
+.navBar a {
+    font-size: 15px;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Background color orange */
+body {
+    background-color: orange;
+}
+
+/* Relative position of footer on the bottom of the page */
+.footer {
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(170, 170, 170);
+    color: black;
+    text-align: center;
+ }

@@ -1,0 +1,150 @@
+/* Imported Fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+/* Universal tag to remove edges and default font */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* index.html body of the page */
+.informationOne {
+    margin: 0px 200px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+/* Section 1 of body page */
+.containerOne {
+    margin-top: 100px;
+}
+
+/* Image in section 1 of body page */
+.imageOne img {
+    border-radius: 50%;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* h1 tag text in section 1 of body page */
+.textOne h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+/* p tag text in section 1 of body page */
+.textOne p {
+    text-align: left;
+    width: 550px;
+    margin: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* font weight and color of specific words in section 1 of the body page */
+.textOne span {
+    color: green;
+    font-weight: bold;
+}
+
+/* Section 2 of body page */
+.containerTwo {
+    display: flex;
+    
+    margin: 200px 0px;
+}
+
+/* Image in section 2 of body page */
+.imageTwo img {
+    width: 400px;
+}
+
+/* Text section size in section 2 of body page */
+.textTwo {
+    margin: 50px 50px;
+}
+
+/* p tag text in section 2 of body page */
+.textTwo p {
+    margin-top: 25px;
+    width: 600px;
+}
+
+/* Section 3 of body page */
+.containerThree {
+    display: flex;
+    
+    margin: 200px 0px;
+}
+
+/* Image in section 3 of body page */
+.imageThree img {
+    width: 400px;
+}
+
+/* Text section size in section 3 of body page */
+.textThree {
+    margin: 50px 50px;
+}
+
+/* h2 tag text in section 3 of body page */
+.textThree h2 {
+    width: 600px;
+}
+
+/* p tag text in section 3 of body page */
+.textThree p {
+    margin-top: 25px;
+    width: 600px;
+}
+
+/* Section 4 of body page */
+.containerFour {
+    margin-bottom: 100px;
+}
+
+/* Image in section 4 of body page */
+.imageFour img {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* h1 tag text in section 4 of body page */
+.textFour h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+/* font weight and color of specific words in section 1 of the body page */
+.textFour span {
+    color: green;
+    font-weight: bold;
+}
+
+/* p tag text in section 4 of body page */
+.textFour p {
+    text-align: left;
+    width: 1000px;
+    margin: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* font weight and color of specific words in section 4 of the body page */
+.textFour a {
+    color: green;
+    font-weight: bold;
+}
