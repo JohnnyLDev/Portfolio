@@ -13,7 +13,7 @@
 
 /* index.html body of the page */
 .informationOne {
-    margin: 0px 200px;
+    margin: 0 200px;
     background-color: white;
     border: 1px solid white;
 }
@@ -24,7 +24,7 @@
 }
 
 /* Image in section 1 of body page */
-.imageOne img {
+.imagePersonal img {
     border-radius: 50%;
     width: 400px;
     display: block;
@@ -64,7 +64,7 @@
 }
 
 /* Image in section 2 of body page */
-.imageTwo img {
+.imageHobby img {
     width: 400px;
 }
 
@@ -84,11 +84,6 @@
     display: flex;
     
     margin: 200px 0px;
-}
-
-/* Image in section 3 of body page */
-.imageThree img {
-    width: 400px;
 }
 
 /* Text section size in section 3 of body page */
@@ -113,7 +108,7 @@
 }
 
 /* Image in section 4 of body page */
-.imageFour img {
+.imageSchool img {
     width: 800px;
     display: block;
     margin-left: auto;

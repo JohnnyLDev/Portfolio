@@ -8,6 +8,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -32,19 +33,19 @@ header {
 }
 
 /* Style inside unordered list of nav bar pages */
-.navBar ul {
+nav ul {
     padding: 20px;
     background-color: rgb(0, 0, 105);
     text-align: right;
 }
 
 /* List style inside navbar as inline */
-.navBar li {
+nav li {
     display: inline;
 }
 
 /* Fonts inside nav bar lists */
-.navBar a {
+nav a {
     font-size: 15px;
     margin: 0px 50px;
     text-decoration: none;
@@ -58,7 +59,7 @@ body {
 }
 
 /* Relative position of footer on the bottom of the page */
-.footer {
+footer {
     position: relative;
     width: 100%;
     padding: 25px;
