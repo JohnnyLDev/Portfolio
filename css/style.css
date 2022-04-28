@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800&display=swap');
 
 /* Universal tag to remove edges and default font */
 * {
@@ -10,60 +11,116 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
 }
 
-/* Fixed navbar */
-header {
-    top: 0;
+#nav{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 200px;
+    background: #1e3d59;
     position: fixed;
-    width: 100%;
 }
 
-/* Location of logo name on nav bar */
-.name {
-    margin-top: 10px;
-    margin-left: 60px;
-    float: left;
-}
-
-/* Color and font of logo name on nav bar */
-.name h1 {
-    font-family: 'Fjalla One', sans-serif;
+#nav #logo{
+    height: 64px;
+    width: 200px;
+    background: #081724;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Style inside unordered list of nav bar pages */
-nav ul {
-    padding: 20px;
-    background-color: rgb(0, 0, 105);
-    text-align: right;
-}
-
-/* List style inside navbar as inline */
-nav li {
-    display: inline;
-}
-
-/* Fonts inside nav bar lists */
-nav a {
-    font-size: 15px;
-    margin: 0px 50px;
+#nav #content a{
     text-decoration: none;
-    color: white;
-    font-family: 'Comfortaa', cursive;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    color: #f5f0e1;
+    display: flex;
+    font-size: 20px;
+    transition-duration: .5s;
 }
 
-/* Background color orange */
-body {
-    background-color: orange;
+#nav #content a:hover{
+    background: #dbdbdb;
+    color: rgb(9, 9, 9);
+}
+
+#nav #content a i{
+    width: 40px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+#nav #social{
+    position: absolute;
+    bottom: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+}
+
+#nav #social a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    color: #dbdbdb;
+    text-align: center;
+}
+
+section{
+    margin-left: 200px;
+}
+
+section .informationOne .homepage .intro h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+section .informationOne .homepage .intro h1 span{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #1e3d59;
+}
+
+section .informationOne .homepage .intro p{
+    font-size: 20px;
+}
+
+section .informationOne .homepage .download-btn{
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    margin: 100px 0px;
+    cursor: pointer;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+section .informationOne .homepage .download-btn a{
+    border: 10px solid #1e3d59;
+    background: #1e3d59;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+section .informationOne .homepage .download-btn a i{
+margin-right: 10px;
 }
 
 /* Relative position of footer on the bottom of the page */
 footer {
-    position: relative;
-    width: 100%;
-    padding: 25px;
-    background-color: rgb(170, 170, 170);
+    margin-left: 200px;
+    padding: 15px;
+    background-color: #ff6340;
     color: black;
     text-align: center;
  }

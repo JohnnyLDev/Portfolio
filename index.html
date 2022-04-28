@@ -6,32 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
-    <link rel="stylesheet" type="text/css" href="css/style3.css">
-    <link rel="stylesheet" type="text/css" href="css/style4.css">
     <title>Junhee Lee Comprehensive Portfolio</title>
+    <script src="https://kit.fontawesome.com/9eda40a1a6.js" crossorigin="anonymous"></script>
 </head>
 
     <body>
-        <!-- Navbar on top of the page -->
-        <header>
-            <nav>
-                <div class="name">
-                    <h1>Junhee Lee</h1>
-                </div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="courses.html">Course</a></li>
-                </ul>
-            </nav>
-        </header>
+        
+        <nav id="nav">
+            <div id="logo">
+                <h2>Junhee Lee</h2>
+            </div>
+
+            <div id="content">
+                <a href="#home"><i class="fa fa-home"></i>Home</a>
+                <a href="#about"><i class="fa-solid fa-address-card"></i>About</a>
+                <a href="#skill"><i class="fa-solid fa-book"></i>Skill</a>
+                <a href="#"><i class="fa-solid fa-diagram-project"></i>Project</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>Contact</a>
+            </div>
+
+            <div id="social">
+                  <a href="#"><i class="fa fa-github"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </nav>
 
         <section>
-            <!-- Body information of index.html file -->
             <div class="informationOne">
+                <div class="homepage" id="home">
+                    <div class="intro">
+                        <h1>Junhee <span>Lee</span></h1>
+                        <p>Seeking for a co-op job opportunity in Java Developer and Web Developer position.</p>
+                    </div>
+    
+                    <div class="download-btn">
+                        <a href="data/Junhee_Lee_Master_Resume.pdf" download><i class="fa-regular fa-circle-down"></i>Resume</a>
+                    </div>
+                </div>
+
+            <!-- Body information of index.html file -->
                 <!-- Body section 1 information of index.html file -->
                 <div class="containerOne">
-                    <div class="imagePersonal">
+                    <div class="imagePersonal" id="about">
                         <!-- image from httpswww.iconfinder.comicons4572045avatar_male_people_person_profile_square_user_icon -->
                         <img src="images/5043919.png" alt="Person Image">
                     </div>
@@ -47,7 +63,7 @@
                     </div>
                 </div>
                 <!-- Body section 2 information of index.html file -->        
-                <div class="containerTwo">
+                <div class="containerTwo" id="skill">
                     <div class="imageHobby">
                         <!-- https://economictimes.indiatimes.com/industry/media/entertainment/the-long-history-of-video-game-wars-as-playstation-5-and-xbox-series-x-go-head-to-head/the-journey-of-video-games/slideshow/79058608.cms -->
                         <img src="images/the-journey-of-video-games.jpg" alt="Video Game">
@@ -80,7 +96,7 @@
                     </div>
                 </div>
                 <!-- Body section 4 information of index.html file -->
-                <div class="containerFour">
+                <div class="containerFour" id="">
                     <div class="imageSchool">
                         <!-- image from httpswww.iconfinder.comicons4572045avatar_male_people_person_profile_square_user_icon -->
                         <img src="images/190327-algonquin-03.jpg" alt="Algonquin College">

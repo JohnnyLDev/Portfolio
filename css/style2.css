@@ -11,16 +11,9 @@
     font-family: 'Manrope', sans-serif;
 }
 
-/* index.html body of the page */
-.informationOne {
-    margin: 0 200px;
-    background-color: white;
-    border: 1px solid white;
-}
-
 /* Section 1 of body page */
-.containerOne {
-    margin-top: 100px;
+.informationOne .containerOne {
+    margin-top: 200px;
 }
 
 /* Image in section 1 of body page */
