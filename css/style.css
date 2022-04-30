@@ -58,9 +58,9 @@
 #nav #social{
     position: absolute;
     bottom: 0;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 #nav #social a{
@@ -73,36 +73,40 @@
     text-align: center;
 }
 
-section{
-    margin-left: 200px;
+section .homepage{
+    height: 100vh;
+    border: 1px solid white;
+    margin: auto auto auto 200px;
+    text-align: center;
 }
 
-section .informationOne .homepage .intro h1{
+section .homepage .intro{
+    margin-top: 200px;
+}
+
+section .homepage .intro h1{
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 100px;
     text-transform: uppercase;
 }
 
-section .informationOne .homepage .intro h1 span{
+section .homepage .intro h1 span{
     font-family: 'Saira Extra Condensed', sans-serif;
     color: #1e3d59;
 }
 
-section .informationOne .homepage .intro p{
+section .homepage .intro p{
     font-size: 20px;
 }
 
-section .informationOne .homepage .download-btn{
-    width: 250px;
-    height: 60px;
-    text-align: center;
-    margin: 100px 0px;
+section .homepage .intro .download-btn{
     cursor: pointer;
-    margin-left: 42%;
-    margin-right: 42%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-section .informationOne .homepage .download-btn a{
+section .homepage .intro .download-btn a{
     border: 10px solid #1e3d59;
     background: #1e3d59;
     border-radius: 10px;
@@ -112,15 +116,6 @@ section .informationOne .homepage .download-btn a{
     color: #dbdbdb;
 }
 
-section .informationOne .homepage .download-btn a i{
-margin-right: 10px;
+section .homepage .intro .download-btn a i{
+    margin-right: 10px;
 }
-
-/* Relative position of footer on the bottom of the page */
-footer {
-    margin-left: 200px;
-    padding: 15px;
-    background-color: #ff6340;
-    color: black;
-    text-align: center;
- }
