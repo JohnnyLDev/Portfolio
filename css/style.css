@@ -76,12 +76,10 @@
 section .homepage{
     height: 100vh;
     border: 1px solid white;
-    margin: auto auto auto 200px;
-    text-align: center;
-}
-
-section .homepage .intro{
-    margin-top: 200px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section .homepage .intro h1{
@@ -102,8 +100,9 @@ section .homepage .intro p{
 section .homepage .intro .download-btn{
     cursor: pointer;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 section .homepage .intro .download-btn a{
