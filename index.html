@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Junhee Lee Comprehensive Portfolio</title>
-    <script src="https://kit.fontawesome.com/9eda40a1a6.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
 </head>
 
     <body>
+        <header>
+            <nav id="nav">
+                <div id="logo">
+                    <h2>Junhee Lee</h2>
+                </div>
+    
+                <div id="content">
+                    <a href="#home"><i class="fa fa-home"></i>Home</a>
+                    <a href="#about"><i class="fa-solid fa-address-card"></i>About</a>
+                    <a href="#skill"><i class="fa-solid fa-book"></i>Skill</a>
+                    <a href="#project"><i class="fa-solid fa-diagram-project"></i>Project</a>
+                    <a href="#college"><i class="fa-solid fa-school"></i>College</a>
+                </div>
+    
+                <div id="social">
+                      <a href="#"><i class="fa-brands fa-github"></i></a>
+                      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </nav>
+        </header>
         
-        <nav id="nav">
-            <div id="logo">
-                <h2>Junhee Lee</h2>
-            </div>
-
-            <div id="content">
-                <a href="#home"><i class="fa fa-home"></i>Home</a>
-                <a href="#about"><i class="fa-solid fa-address-card"></i>About</a>
-                <a href="#skill"><i class="fa-solid fa-book"></i>Skill</a>
-                <a href="#"><i class="fa-solid fa-diagram-project"></i>Project</a>
-                <a href="#"><i class="fa-solid fa-envelope"></i>Contact</a>
-            </div>
-
-            <div id="social">
-                  <a href="#"><i class="fa fa-github"></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </nav>
 
         <section>
             <div class="homepage" id="home">
@@ -42,13 +44,9 @@
                 </div>
             </div>
 
-            <div class="containerOne">
-                <div class="imagePersonal" id="about">
-                    <!-- image from httpswww.iconfinder.comicons4572045avatar_male_people_person_profile_square_user_icon -->
-                    <img src="images/5043919.png" alt="Person Image">
-                </div>
+            <div class="containerOne" id="about">
                 <div class="textOne">
-                    <h1>Hello! My name is Junhee Lee.</h1>
+                    <h1>Hello! I am Junhee Lee.</h1>
                     <p>I'm a level 2 student currently studying in <span>Computer Programming</span> program at the <span>Algonquin College</span>. I am currently expanding my knowledges and skills in Java Object Oriented Programming, Web Programming, Linux, and Database throughout the courses.
                     </p>
                     <p>I am a patient and hardworking computer programmer as an
@@ -58,7 +56,80 @@
                     </p>
                 </div>
             </div>
+            <div class="containerTwo" id="skill">
+                <div class="filter">
+                
+                    <div id="myBtnContainer">
+                      <button class="btn active" onclick="filterSelection('all')">All</button>
+                      <button class="btn" onclick="filterSelection('fe')">Front-end</button>
+                      <button class="btn" onclick="filterSelection('be')">Back-end</button>
+                      <button class="btn" onclick="filterSelection('sw')">Software</button>
+                      <button class="btn" onclick="filterSelection('os')">Operating System</button>
+                    </div>
+                    
+                    <div class="container">
+                      <div class="filterDiv sw"><img src="images/java.png" alt=""></div>
+                      <div class="filterDiv fe"><img src="images/html5.png" alt=""></div>
+                      <div class="filterDiv fe"><img src="images/css3.png" alt=""></div>
+                      <div class="filterDiv fe"><img src="images/javascript.png" alt=""></div>
+                      <div class="filterDiv os"><img src="images/linux.png" alt=""></div>
+                      <div class="filterDiv sw"><img src="images/git.png" alt=""></div>
+                      <div class="filterDiv be"><img src="images/postgresql.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerThree" id="project">
+                <div class="card">
+                    <div class="img">
+                        <img src="images/E-portfolio.PNG">
+                    </div>
+                    <h1>E-Portfolio</h1>
+                    <div class="content">
+                        <p>
+                            First personal project began as an assignment from college.
+                            Developed using HTML5, CSS3, and Vanilla JavaScript.
+                            <br>
+                            <br>
+                            February 2022 ~ Present
+                        </p>
+                        <a href="https://github.com/JohnnyLDev/Portfolio">GitHub Page</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerFour" id="college">
+                <div class="imageSchool">
+                    <img src="images/190327-algonquin-03.jpg" alt="Algonquin College">
+                </div>
+                <div class="textTwo">
+                    <h1><span>Algonquin College</span></h1>
+                    <p><span>Algonquin College of Applied Arts and Technology</span>
+                            is a publicly funded English-language college located in 
+                            <strong>Ottawa, Ontario, Canada</strong>. The college serves the National
+                            Capital Region and the outlying areas of Eastern Ontario,
+                            Western Quebec, and Upstate New York.
+                    </p>
+                    <p><span>Algonquin College</span>'s  <strong>mission</strong> is to transform hopes and dreams 
+                        into lifelong success, <strong>vision</strong> to be a global leader in personalized, 
+                        digitally connected, experiential learning, and have <strong>values</strong> in caring, 
+                        integrity, learning, and respect.
+                    </p>
+                    <p>For further information about the college,
+                        <a href="https://www.algonquincollege.com/">Click Here</a>
+                    for more information.</p>
+                </div>
+            </div>
         </section>
+
+
+        <footer>
+            <p>© Junhee Lee 2022<br>
+        </footer>
+
+            <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+
+
 
     </body>
 </html>

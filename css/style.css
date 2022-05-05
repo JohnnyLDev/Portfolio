@@ -5,13 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800&display=swap');
 
-/* Universal tag to remove edges and default font */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(240, 240, 240);
 }
 
 #nav{
@@ -75,7 +78,6 @@
 
 section .homepage{
     height: 100vh;
-    border: 1px solid white;
     margin-left: 200px;
     display: flex;
     align-items: center;
@@ -101,8 +103,6 @@ section .homepage .intro .download-btn{
     cursor: pointer;
     margin-top: 50px;
     text-align: center;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 section .homepage .intro .download-btn a{
@@ -117,4 +117,191 @@ section .homepage .intro .download-btn a{
 
 section .homepage .intro .download-btn a i{
     margin-right: 10px;
+}
+
+section .containerOne{
+    height: 100vh;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .containerOne .textOne h1 {
+    text-align: center;
+    font-size: 53px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+section .containerOne .textOne p {
+    text-align: left;
+    width: 550px;
+    margin: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section .containerOne .textOne span {
+    color: #1e3d59;
+    font-weight: 1000;
+}
+
+.containerTwo{
+    height: 100vh;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterDiv {
+    width: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#myBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#myBtnContainer button{
+    color: white;
+    margin-right: 30px;
+}
+
+.container {    
+    display: flex;
+    justify-content: center;
+}
+
+.container .filterDiv{
+    margin-top: 50px;
+    margin-right: 30px;
+} 
+
+.container img{
+    padding: 5px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    background: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #1e3d59;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5c91bb;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.containerThree{
+    margin-left: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerThree .card{
+    width: 300px;
+    background-color: white;
+    margin: 45px;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containerThree .card p{
+    text-align: left;
+    font-size: 15px;
+}
+
+.containerThree .card .content{
+    padding: 10px;
+}
+
+.containerThree .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e3d59;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px 0 0 0;
+}
+
+.containerThree .card:hover{
+    transition-duration: .5s;
+    margin-top: -30px;
+}
+
+.img img{
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 150px;
+}
+
+.containerFour {
+    height: 100vh;
+    margin: 0 0 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageSchool img {
+    width: 800px;
+}
+
+.textTwo h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.textTwo span {
+    color: green;
+    font-weight: bold;
+}
+
+.textTwo p {
+    text-align: left;
+    width: 1000px;
+    margin: 10px 0px;
+    }
+
+.textTwo a {
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    margin-left: 200px;
+    padding: 15px;
+    background-color: #0f2437;
+    color: white;
+    text-align: center;
 }
