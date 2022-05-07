@@ -96,7 +96,7 @@ section .homepage .intro h1 span{
 }
 
 section .homepage .intro p{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 section .homepage .intro .download-btn{
@@ -129,15 +129,16 @@ section .containerOne{
 
 section .containerOne .textOne h1 {
     text-align: center;
-    font-size: 53px;
+    font-size: 60px;
     margin-bottom: 0px;
     margin-top: 30px;
 }
 
 section .containerOne .textOne p {
     text-align: left;
-    width: 550px;
-    margin: 10px 0px;
+    font-size: 20px;
+    width: 670px;
+    margin: 20px 0px 0px 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -175,6 +176,8 @@ section .containerOne .textOne span {
 #myBtnContainer button{
     color: white;
     margin-right: 30px;
+    font-size: 20px;
+    padding: 20px;
 }
 
 .container {    
@@ -184,7 +187,7 @@ section .containerOne .textOne span {
 
 .container .filterDiv{
     margin-top: 50px;
-    margin-right: 30px;
+    margin-right: 80px;
 } 
 
 .container img{
@@ -192,8 +195,8 @@ section .containerOne .textOne span {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
     background: white;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .btn {
@@ -224,7 +227,8 @@ section .containerOne .textOne span {
 }
 
 .containerThree .card{
-    width: 300px;
+    width: 350px;
+    height: 550px;
     background-color: white;
     margin: 45px;
     border: 1px solid rgb(37, 37, 37);
@@ -235,9 +239,12 @@ section .containerOne .textOne span {
 
 .containerThree .card p{
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
 }
 
+.containerThree .card h1{
+    margin: 10px 0px 0px 0px;
+}
 .containerThree .card .content{
     padding: 10px;
 }
@@ -250,18 +257,18 @@ section .containerOne .textOne span {
     color: white;
     border-radius: 10px;
     text-decoration: none;
-    margin: 20px 0 0 0;
+    margin: 70px 0 0 0;
 }
 
 .containerThree .card:hover{
     transition-duration: .5s;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .img img{
     border-radius: 30px 30px 0 0;
     width: 100%;
-    height: 150px;
+    height: 250px;
 }
 
 .containerFour {
@@ -274,12 +281,13 @@ section .containerOne .textOne span {
 }
 
 .imageSchool img {
-    width: 800px;
+    width: 1000px;
 }
 
 .textTwo h1 {
     text-align: center;
-    margin-bottom: 0px;
+    font-size: 35px;
+    margin: 20px 0px 0px 0px;
 }
 
 .textTwo span {
@@ -289,8 +297,9 @@ section .containerOne .textOne span {
 
 .textTwo p {
     text-align: left;
+    font-size: 20px;
     width: 1000px;
-    margin: 10px 0px;
+    margin: 20px 0px 0px 0px;
     }
 
 .textTwo a {
