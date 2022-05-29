@@ -17,6 +17,7 @@ body {
     background: rgb(240, 240, 240);
 }
 
+/* Nav bar */
 #nav{
     display: flex;
     flex-direction: column;
@@ -76,9 +77,13 @@ body {
     text-align: center;
 }
 
+/* Main Section */
+section {
+    margin-left: 200px;
+}
+
 section .homepage{
     height: 100vh;
-    margin-left: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,7 +126,6 @@ section .homepage .intro .download-btn a i{
 
 section .containerOne{
     height: 100vh;
-    margin-left: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,12 +140,10 @@ section .containerOne .textOne h1 {
 
 section .containerOne .textOne p {
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     width: 670px;
     margin: 20px 0px 0px 0px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 section .containerOne .textOne span {
@@ -151,7 +153,6 @@ section .containerOne .textOne span {
 
 .containerTwo{
     height: 100vh;
-    margin-left: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,7 +219,6 @@ section .containerOne .textOne span {
 }
 
 .containerThree{
-    margin-left: 200px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -273,7 +273,7 @@ section .containerOne .textOne span {
 
 .containerFour {
     height: 100vh;
-    margin: 0 0 100px 200px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,7 +281,7 @@ section .containerOne .textOne span {
 }
 
 .imageSchool img {
-    width: 1000px;
+    width: 800px;
 }
 
 .textTwo h1 {
@@ -297,7 +297,7 @@ section .containerOne .textOne span {
 
 .textTwo p {
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     width: 1000px;
     margin: 20px 0px 0px 0px;
     }
